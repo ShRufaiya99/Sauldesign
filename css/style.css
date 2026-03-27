@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:#FFFFFF;
+}
+
+body{
+    background-color: #222831;
+}
+
+
+.container{
+    max-width: 1248px;
+    margin: 0 auto;
+}
+
+ h2{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+ span{
+    color: #00ADB5;
+}
+
+
+button{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 32px;
+    background-color: #00ADB5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, .5);
+    border: none;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+
+/*********** nav start **************/
+header{
+    border-bottom: 1px solid rgba(238, 238, 238, .1);
+}
+
+header nav .nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+}
+  
+header nav .nav-wrapper ul a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+header nav .nav-wrapper ul li{
+    display: inline-block;
+}
+
+header button{
+    display: none;
+}
+
+/*********** nav end **************/
+
+/*********** banner start **************/
+
+#banner .banner-content{
+    display: flex;
+    align-items: center;
+}
+
+#banner .banner-content img{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+#banner .banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-wrapper h1{
+   font-size: 96px;
+   font-weight: 700;
+   line-height: 100px;
+   margin-bottom: 48px;
+}
+
+#banner .banner-wrapper h1 span{
+   color:#00ADB5;
+}
+
+#banner .banner-wrapper button i{
+    background-color: transparent;
+}
+
+#banner .banner-wrapper .banner-button{
+    background-color: rgba(57, 62, 70, 75);
+    margin-left: 24px;
+}
+
+#banner .banner-wrapper .banner-img{
+    margin-top: 163px;
+}
+/*********** banner end **************/
+
+/*********** abour start **************/
+
+#about .about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 230px;
+}
+
+#about{
+    margin-bottom: 132px;
+    padding-bottom: 69px;
+    border-bottom: 1px solid rgba(238, 238, 238, .1);
+}
+
+#about .about-sticker1{
+    margin-bottom: 75px;
+}
+
+#about .about-sticker2{
+   margin-left: 27px;
+}
+
+#about .about-sticker3{
+    margin-left: 161px;
+    margin-top: 65px;
+}
+
+#about .about-wrapper p{
+    max-width: 389px;
+    font-size: 18px;
+}
+/*********** about end **************/
+
+
+/*********** work start **************/
+#work{
+    background-image: url(/img/work.png);
+    padding-top: 268px;
+    padding-bottom: 269px;
+}
+
+#work .work-wrapper h2{
+    margin-bottom: 16px;
+}
+
+#work .work-wrapper .active:focus{
+    background-color: #00ADB5;
+}
+
+#work .work-wrapper .work-button button{
+    border: none;
+    padding: 10px 32px;
+    color:#EEEEEE;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(57, 62, 70, .5);
+    margin-right: 16px;
+    margin-bottom: 48px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+#work .work-wrapper .work-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*********** work end **************/
+
+
+/*********** contact start **************/
+
+#contact .contact-wrapper{
+    display: flex;
+    gap: 100px;
+}
+
+#contact .contact-wrapper .contact-one{
+    max-width:40%;
+    margin-top: 218px;
+}
+
+
+#contact .contact-wrapper .contact-two{
+    color:#EEEEEE;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#contact .contact-wrapper .contact-two .contact1{
+    margin-top: 60px;
+    margin-bottom: 83px;
+    margin-left: 75px;
+}
+
+#contact .contact-wrapper .contact-two .contact2{
+    margin-left: 456px;
+    margin-bottom: 169px;
+}
+
+#contact .contact-wrapper .contact-two input{
+    color:rgba(238, 238, 238, .5);
+    background-color: rgba(57, 62, 70, .5);
+    padding: 16px 108px 16px 24px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+#contact .contact-wrapper .contact-two input::placeholder{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#contact .contact-wrapper .contact-two textarea{
+    color:rgba(238, 238, 238, .5);
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(57, 62, 70, .5);
+    padding: 16px 400px 237px 24px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+#contact .contact-wrapper button{
+position: relative;
+width: 232px;
+margin-top: 24px;
+padding: 10px 10px 10px 0px;
+margin-bottom: 17px;
+}
+#contact .contact-wrapper i{
+   
+   position: absolute;
+   top:12px;
+   right:19px;
+   
+   transform: rotate(-45deg);
+   -webkit-transform: rotate(320deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+}
+/*********** contact end **************/
+
+/*********** footer start **************/
+#footer {
+    border-top: 1px solid rgba(238, 238, 238, .1);
+    padding-top: 100px;
+}
+
+#footer .footer-wrapper{
+    margin: 0 auto;
+    width: 475px;
+  
+}
+
+#footer .footer-wrapper ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+#footer .footer-wrapper li{
+     display: inline-block;
+    
+}
+
+#footer .footer-wrapper li a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#footer .footer-wrapper li a i{
+    margin-right: 10px;
+}
+
+
+#footer .footer-wrapper .icon{
+    width: 264px;
+    margin: 0 auto;
+    display: flex;
+    gap:24px;
+    padding-bottom: 44px;
+}
+
+#footer .footer-wrapper .icon li{
+    text-align: center;
+    margin: 0;
+}
+
+#footer .footer-wrapper .icon .icon-box{
+    width: 48px;
+    height: 48px;
+    background-color: #393E46;
+    padding: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#footer .footer-wrapper .icon .icon-box a i{
+    color: rgba(238, 238, 238, .75);
+    font-size: 18px;
+}
+
+#footer p{
+    color: rgba(238, 238, 238, .75);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 48px 0px 96px;
+    text-align: right;
+}
+
+/*********** footer end **************/
+
